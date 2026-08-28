@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sonic Edge Run for Your Life 5K | Hosted by Sonic Edge</title>
+    <title>Run for Your Life 5K | Hosted by Sonic Edge</title>
     <style>
         :root {
             --orange: #ff6b00;
@@ -89,6 +89,7 @@
             border-radius: 8px;
             border: 1px solid #333;
             text-align: center;
+            margin-bottom: 30px;
         }
 
         .zeffy-btn {
@@ -101,19 +102,28 @@
             background-color: #218838 !important;
         }
 
-        .zeffy-embed-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-            height: 700px;
-            border-radius: 8px;
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
             margin-top: 20px;
         }
 
-        .zeffy-embed-container iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .contact-link-btn {
+            color: #fff;
+            background-color: #2b2b2b;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #444;
+            transition: 0.3s;
+        }
+
+        .contact-link-btn:hover {
+            border-color: var(--orange);
+            color: var(--orange);
         }
 
         footer {
@@ -132,7 +142,7 @@
         <p>Presented by Sonic Edge</p>
         <p>Will you cross the finish line... or become the next course obstacle?</p>
         <p><strong>Saturday, October 31, 2026</strong></p>
-        <p><strong>Pebblebrook High School 991 Old Alabama Rd SW, Mableton, GA</strong></p>
+        <p><strong>Pebblebrook High School 991 Old Alabama Rd SW, Mableton, GA 30126</strong></p>
         <a href="#register" class="cta-btn">Register Now</a>
     </header>
 
@@ -145,18 +155,32 @@
                 <p><strong>7:00 AM:</strong> Check-in & Packet Pickup<br>
                 <strong>8:00 AM:</strong> 5K Race Start<br>
                 <strong>9:00 AM:</strong> Kids' Monster Dash (1-Mile)<br>
-                <strong>9:30 AM:</strong> Costume Contest & Dance Party</p>
+                <strong>9:30 AM:</strong> Live Music & Costume Contest</p>
             </div>
             <div class="card">
                 <h3>🎸 Finish Line Festivities</h3>
-                <p>Cross the finish line into <strong>Sonic Edge's After-Grave Party!</strong> Enjoy a dance party, costume contests, and custom finisher medals for all survivors.</p>
+                <p>Cross the finish line into <strong>Sonic Edge's After-Grave Party!</strong> Enjoy a live post-race concert, costume contests, local food trucks, and custom glowing finisher medals for all survivors.</p>
             </div>
             <div class="card">
-                <h3>🎽 Registration Pricing</h3>
+                <h3>💀 Registration Pricing</h3>
                 <p>• <strong>Early Monster (thru Sept 30):</strong> $35<br>
                 • <strong>General Reg (Oct 1–30):</strong> $40<br>
                 • <strong>Race Day (Oct 31):</strong> $45<br>
                 • <strong>Kids' Monster Dash:</strong> $15 ($20 Race Day)</p>
+            </div>
+        </div>
+
+        <!-- CONTACT & SPONSORSHIP BOX (PLACED ABOVE REGISTRATION) -->
+        <div class="registration-section">
+            <h2>💬 Questions & Sponsorships</h2>
+            <p>Have questions about race logistics or interested in becoming an official event sponsor or vendor?</p>
+            <div class="contact-links">
+                <a href="mailto:info@sonicedge.com?subject=Run%20for%20Your%20Life%205K%20Inquiry" class="contact-link-btn">
+                    ✉️ General Questions
+                </a>
+                <a href="mailto:sponsors@sonicedge.com?subject=5K%20Sponsorship%20Opportunity" class="contact-link-btn">
+                    🤝 Sponsorship Info
+                </a>
             </div>
         </div>
 
@@ -165,34 +189,11 @@
             <h2>Runner Registration</h2>
             <p>Complete your registration and payment securely with zero extra processing fees!</p>
             
-            <!-- OPTION A: DIRECT LINK BUTTON (Simple Redirect) -->
-            <!-- Replace the href URL below with your actual Zeffy Event Ticketing Link -->
             <a href="https://www.zeffy.com/ticketing/your-custom-event-link" target="_blank" class="cta-btn zeffy-btn">
                 Register & Pay with Zeffy 🎟️
             </a>
-
-            <!-- OPTION B: EMBEDDED ZEFFY FORM (Keeps runners on your site) -->
-            <!-- To use the embedded form instead, uncomment the block below and paste your Zeffy iframe code -->
-            <!--
-            <div class="zeffy-embed-container">
-                <iframe src="https://www.zeffy.com/embed/ticketing/your-custom-event-link" allowpaymentrequest allowfullscreen></iframe>
-            </div>
-            -->
         </div>
 
-        <!-- NEW: CONTACT & SPONSORSHIP BOX -->
-        <div class="contact-box">
-            <h3>💬 Questions or Sponsorship Opportunities?</h3>
-            <p>Have questions about race day logistics, or interested in becoming an official event sponsor?</p>
-            <div class="contact-links">
-                <!-- Replace with your actual race contact emails -->
-                <a href="mailto:runforyourlife5kse@gmail.com?subject=Run%20for%20Your%20Life%205K%20Inquiry" class="contact-link-btn">
-                    ✉️ General Questions
-                </a>
-                <a href="mailto:runforyourlife5kse@gmail.com?subject=5K%20Sponsorship%20Opportunity" class="contact-link-btn">
-                    🤝 Sponsorship Info
-                </a>
-            </div>
     </div>
 
     <footer>
